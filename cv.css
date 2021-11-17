@@ -1,0 +1,152 @@
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+body,td {
+	background-image: url("media/BACKground.png"); 
+	font: 0.8em "Trebuchet MS", Georgia, Arial;
+	text-align: left;
+	width:1900px ;
+	height:1000px 
+	}
+#cont_container{
+	width: 100%;
+	}
+#container{
+	width: 1880px;
+	margin: 60px 20px;
+	}
+#top_cont{
+	float: left;
+	width: 190px;
+	}
+#cont{
+	color:white;
+	float: right  ;
+	width: 670px;
+	padding-right: 750px;
+	background: url(medias/pagebg.jpg) no-repeat 0% 50%;
+	}
+#footer{
+	width: 100%;
+	padding-top: 418px;
+	clear: both;
+	}
+h1{
+	width: 90%;
+	color: #990000;
+	font: 1.4em Georgia, Arial;
+	border-bottom: 1px solid #E1E2E8;
+	text-align: left;
+	margin: 10px 0px 10px 0px;
+	padding-bottom: 4px;
+	}
+h2{
+	color: #dd0000;
+	font: 1.2em Georgia, Arial;
+	border-bottom: 1px solid #E1E2E8;
+	padding: 30px 0 3px 0;
+	}
+h3{
+	color: purple;
+	font: 1em Georgia, Arial; 
+	font-weight:bold;
+	}
+a{
+	text-decoration: none;
+	color: #c4af7c;
+	}
+a:hover{
+	text-decoration: underline;
+	color: #6974C5;
+	}
+img.photo {
+	border: 10px dashed back;
+	padding: 6px;
+	}
+ul {
+	list-style-type: square;
+	margin-top: 12px;
+}
+#enum{
+	list-style-type: none;
+}
+#enum li{
+	list-style-type: none;
+	margin-left: -12px;
+	margin-top: 12px;
+	}
+.date {
+	width: 160px;
+	border: 0px solid #CCC;
+	display: block;
+	margin-top: 12px;
+	}
+.detail {
+	width: 300px;
+	border: 0px solid #CCC;
+	display: block;
+	margin-top: 12px;
+	padding-right: 6px;
+	}
+.qualif {
+	width: 450px;
+	border: 0px solid #CCC;
+	display: block;
+	margin-top: 12px;
+	padding-right: 6px;
+	}
+.lien {
+	width: 150px;
+	border: 0px solid #CCC;
+	display: block;
+	margin-top: 12px;
+	}
+.autre {
+	width: 600px;
+	border: 0px solid #CCC;
+	margin-top: 10px;
+	display: block;
+	}
+.autre_r {
+	width: 160px;
+	border: 0px solid #CCC;
+	margin-right: 10px;
+	}
+	
+	
+.exp, .etud {
+	margin: 12px 0;
+}
+.exp_date{
+	float: left;
+	width: 160px;
+}
+.exp_soc{
+	float: right;
+	width: 220px;
+	padding-right:10px
+}
+.exp_exp{
+	width: 640px;
+	margin-left: 160px;
+	margin-right: 120px;
+}
+.etud_date{
+	float: left;
+	width: 160px;
+}
+.etud_ecol{
+	float: right;
+	width: 120px;
+}
+.etud_etud{
+	width: 340px;
+	margin-left: 160px;
+	margin-right: 120px;
+}
+.text {
+	margin-top: 10px;
+	font:Arial;
+}
